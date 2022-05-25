@@ -1,10 +1,17 @@
+import MyContext from '../../MyContext';
 import './Dashboard.css';
 
 function Dashboard() {
   return (
-    <div className='Dashboard'>
-      <p>Dashboard</p>
-    </div>
+    <MyContext.Consumer>
+      {
+        value => (
+          <div className='Dashboard'>
+            <p>Dashboard</p>
+          </div>
+        )
+      }
+    </MyContext.Consumer>
   );
 }
 

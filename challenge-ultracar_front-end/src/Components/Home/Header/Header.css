@@ -1,8 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
+
 .header {
   background-color: #3E498B;
   color: white;
   height: 9vh;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 15px 0px;
+}
+
+.header img {
+  width: 3.5%;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.selectMonth {
+  color: black;
+  width: 100%;
+}
+
+.formMonth, .formSalesman {
+  background-color: #4B5FDA;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1vw;
+  border-radius: 5px;
+}
+
+.formMonth p, .formSalesman p {
+  padding-right: 1vw;
+}
+
+.inputYear {
+  background-color: #4B5FDA;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  width: 11vw;
+}
+
+.inputYear p {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#inputYear {
+  border-radius: 5px;
+  border: 0 none;
+  height: 6vh;
+  width: 7vw;
+  color: #7c7979;
 }
