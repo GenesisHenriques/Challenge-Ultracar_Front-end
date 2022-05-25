@@ -16,9 +16,9 @@ function Dashboard() {
   return (
     <main className='Dashboard'>
       <section className='sectionOne'>
-        <ComparativePreviousYear />
         <RevenueAndGoal />
         <SalesBySeller />
+        <ComparativePreviousYear />
       </section>
       <section className='sectionTwo'>
         <MonthlyGoal />
