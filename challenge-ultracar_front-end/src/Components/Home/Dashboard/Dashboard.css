@@ -3,3 +3,10 @@
   height: 100vh;
   flex-grow: 1;
 }
+
+.sectionOne, .sectionTwo, .sectionThree {
+  height: 33vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

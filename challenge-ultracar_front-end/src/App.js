@@ -21,12 +21,6 @@ function App() {
     <MyContext.Provider value={contextValue}>
       <div className="App">
         <Home />
-        {
-          console.log(months)
-        }
-        {
-          console.log(sellers)
-        }
       </div>
     </MyContext.Provider>
   );
