@@ -1,0 +1,41 @@
+.revenue-and-goal {
+  width: 28%;
+  height: 90%;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.current-revenue, .filtered-recipe, .second-line {
+  width: 47%;
+  height: 5em;
+  margin: 0.5em 0.2em;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.current-revenue h3, .filtered-recipe h3, .second-line h3 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+.current-revenue p, .filtered-recipe p, .second-line p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.second-line {
+  width: 98%;
+  height: 53%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

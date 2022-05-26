@@ -47,7 +47,7 @@ function Header() {
     <MyContext.Consumer>
       {
         state => (
-          <div className='header'>
+          <header className='header'>
             <img src={logotipo} alt='Logotipo do site' />
             <h2>DASHBOARD DE VENDAS</h2>
             <form className='formMonth'>
@@ -80,7 +80,7 @@ function Header() {
               <p>Ano</p>
               <input type="text" name="name" id='inputYear' />
             </div>
-          </div>
+          </header>
         )
       }
     </MyContext.Consumer>

@@ -1,0 +1,30 @@
+.order-per-month {
+  width: 25%;
+  height: 90%;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262626;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.order-per-month h3 {
+  margin-top: 1.5vh;
+}
+
+.box-of-months {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+  width: 90%;
+}
+
+.box-month {
+  background-image: linear-gradient(#4B5FDA, #3E498B);
+  width: 21%;
+  margin: 0.2em;
+  border-radius: 2px;
+}

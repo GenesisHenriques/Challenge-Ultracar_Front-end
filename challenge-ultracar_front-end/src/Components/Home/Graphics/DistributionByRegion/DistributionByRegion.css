@@ -1,0 +1,13 @@
+.distribution-by-region {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262626;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+#comparative-previous-year-title {
+  margin-top: 1.5vh;
+}
