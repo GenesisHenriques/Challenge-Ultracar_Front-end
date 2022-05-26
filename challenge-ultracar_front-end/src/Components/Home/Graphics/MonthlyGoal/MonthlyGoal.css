@@ -1,5 +1,5 @@
-.comparative-previous-year {
-  width: 40%;
+.monthly-goal {
+  width: 35%;
   height: 90%;
   margin-top: 2vh;
   display: flex;
@@ -10,6 +10,6 @@
   font-size: 0.9em;
 }
 
-#comparative-previous-year-title {
+#monthly-goal-title {
   margin-top: 1.5vh;
 }
