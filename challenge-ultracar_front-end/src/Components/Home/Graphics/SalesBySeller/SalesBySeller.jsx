@@ -39,7 +39,8 @@ export const options = {
       // fontName: 'Open Sans',
       color: 'white',
     }
-  }
+  },
+  colors: ['#4B5FDA']
 };
 
 export default function SalesBySeller() {
