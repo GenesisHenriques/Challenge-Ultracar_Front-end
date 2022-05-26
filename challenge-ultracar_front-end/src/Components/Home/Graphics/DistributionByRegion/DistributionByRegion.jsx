@@ -44,7 +44,7 @@ const data = [
 export default function DistributionByRegion() {
 
   return (
-    <ResponsiveContainer width="20%" height="90%" className='distribution-by-region'>
+    <ResponsiveContainer width="23%" height="90%" className='distribution-by-region'>
       <RadarChart
         cx="50%"
         cy="60%"

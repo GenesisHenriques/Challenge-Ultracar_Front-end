@@ -1,5 +1,5 @@
 .customer-per-month {
-  width: 34%;
+  width: 33%;
   height: 90%;
   margin-top: 2vh;
   display: flex;
@@ -13,7 +13,7 @@
 .general-container {
   margin-top: 0.8em;
   width: 90%;
-  height: 70%;
+  height: 75%;
   display: flex;
   flex-direction: row;
 }
