@@ -64,7 +64,7 @@ export default function CustomersPerMonth() {
 
   return (
     <div className='customer-per-month'>
-      <h3>Pedidos por Mês</h3>
+      <h3>Novos Clientes por Mês</h3>
       <div className='general-container'>
         <div className='months-container'>
           {
