@@ -48,18 +48,18 @@ export default function RevenueAndGoal(props) {
   }, []);
 
   return (
-    <section className='RevenueAndGoal'>
-      <div className='firstLine'>
-        <div className='currentRevenue'>
+    <section className='revenue-and-goal'>
+      <div className='first-line'>
+        <div className='current-revenue'>
           <h3>{recipe},00</h3>
           <p>Receita Anual</p>
         </div>
-        <div className='filteredRecipe'>
+        <div className='filtered-recipe'>
           <h3>153.147,00</h3>
           <p>Receita Filtrada</p>
         </div>
       </div>
-      <div className='secondLine'>
+      <div className='second-line'>
           <div>
             <h3>300.000,00</h3>
             <p>Meta Anul</p>
