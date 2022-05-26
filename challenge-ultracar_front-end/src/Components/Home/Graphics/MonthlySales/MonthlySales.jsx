@@ -46,8 +46,7 @@ export const options = {
     alignment: 'center',
   },
   colors: ['#4B5FDA', '#0DA632'],
-  seriesType: "bars",
-  series: { 0: { type: "line" } },
+  curveType: "function",
   annotations: {
     textStyle: {
       alwaysOutside: true,
@@ -63,7 +62,7 @@ export default function MonthlySales() {
     <div className='monthly-sales'>
       <h3 id="monthly-sales-title">Vendas por Mes</h3>
       <Chart
-        chartType="ComboChart"
+        chartType="LineChart"
         width="38em"
         height="90%"
         data={data}
