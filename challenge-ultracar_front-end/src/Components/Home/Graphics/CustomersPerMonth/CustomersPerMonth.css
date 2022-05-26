@@ -1,0 +1,58 @@
+.customer-per-month {
+  width: 34%;
+  height: 90%;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262626;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.general-container {
+  margin-top: 0.8em;
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.months-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month-container {
+  background-image: linear-gradient(#4B5FDA, #3E498B);
+  width: 22%;
+  height: 29.5%;
+  margin: 0.2em;
+  border-radius: 2px;
+}
+
+.month-container p {
+  font-size: 0.8em;
+}
+
+.client-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 37%;
+  justify-content: space-evenly;
+}
+
+.client-container-text {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+.client-container-value {
+  font-weight: 700;
+  font-size: 20px;
+}
